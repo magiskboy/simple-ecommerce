@@ -1,0 +1,27 @@
+env: local
+
+general:
+  name: Simple Ecommerce
+  version: 1.0.0
+  contact: 
+    name: Nguyen Khac Thanh
+    email: nguyenkhacthanh244@gmail.com
+    url: https://nkthanh.dev
+  description: Monolithic ecommerce application
+
+http:
+  host: localhost
+  port: 8000
+
+auth:
+  expiresIn: 60s
+  secret: string
+
+database:
+  type: mysql
+  host: localhost
+  port: 3306
+  username: root
+  password: simple_ecommerce
+  name: simple_ecommerce
+
